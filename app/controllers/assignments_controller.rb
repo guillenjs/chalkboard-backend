@@ -1,9 +1,14 @@
 class AssignmentsController < ApplicationController
 
+    def index
+        listitems = Assignment.all    
+        render json: listitems
+    end
+
     def create
-        byebug
+
         assignment = Assignment.create(assignmentParams)
-        byebug
+
         render json: assignment
     end
 

@@ -1,5 +1,12 @@
 class UsersController < ApplicationController
-    before_action :authorized, only: [:auto_login]
+    # before_action :authorized, only: [:auto_login]
+
+    #remove when done in order for user info to not be viewed
+    def index 
+      users = User.all  
+
+      render json: users
+    end
 
 #register
     def create
