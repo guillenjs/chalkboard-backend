@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-  resources :students
+  resources :friendships
   resources :questions
   resources :assignments
   resources :users

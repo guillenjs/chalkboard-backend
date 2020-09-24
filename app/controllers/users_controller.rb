@@ -1,5 +1,6 @@
 class UsersController < ApplicationController
     # before_action :authorized, only: [:auto_login]
+   
 
     #remove when done in order for user info to not be viewed
     def index 
@@ -10,7 +11,6 @@ class UsersController < ApplicationController
 
 #register
     def create
- 
         @user = User.create(userParams)
         if @user.valid?
           token = encode_token({user_id: @user.id})

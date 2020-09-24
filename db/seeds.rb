@@ -8,4 +8,6 @@
 
 
 user = User.create(username: "jorge", password: "sample", teacher: true)
+user2 = User.create(username: "jennifer", password: "sample", teacher: true)
+user3 = User.create(username: "gaby", password: "sample", teacher: true)
 # assignment = Assignment.create(title: "sample" date: "2020-09-22" user_id: 1)
