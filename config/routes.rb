@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+  resources :grades
   resources :friendships
   resources :questions
   resources :assignments

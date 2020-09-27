@@ -3,4 +3,10 @@ class UserSerializer < ActiveModel::Serializer
 
   has_many :assignments
   has_many :friendships
+  has_many :grades
+
+
+  # has_many :inverse_friendships
+  # has_many :inverse_friends 
+
 end
