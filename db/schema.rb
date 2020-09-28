@@ -32,7 +32,7 @@ ActiveRecord::Schema.define(version: 2020_09_27_194813) do
   end
 
   create_table "grades", force: :cascade do |t|
-    t.integer "grade"
+    t.decimal "grade"
     t.bigint "user_id", null: false
     t.integer "teacher_id"
     t.integer "assignment_id"
