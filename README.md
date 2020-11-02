@@ -17,6 +17,6 @@ Trivia 400 is an application for user to take trivia quizzes and further their k
     
 ## Tech Stack and Tools
  - [Ruby 2.6.1](https://www.ruby-lang.org/en/news/2019/01/30/ruby-2-6-1-released/)
- - [Ruby on Rails1](https://rubyonrails.org/)
+ - [Ruby on Rails](https://rubyonrails.org/)
  - [PostgreSQL](https://www.postgresql.org/)
  - [ActiveModelSerializers](https://github.com/rails-api/active_model_serializers)
