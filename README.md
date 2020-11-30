@@ -3,7 +3,7 @@
 
 Chalkboard is an application for educators to create assignments and be able to assign students a code in order for them to have access to the classroom. The application keeps track of completed assignments and grades both for teachers and students.
 
-## Installation	## Installation
+## Installation	
 (Disclaimer: Need to have [Homebrew](https://brew.sh/), [Ruby](https://www.ruby-lang.org/en/), [Rails](https://rubyonrails.org/), and [PostgreSQL](https://www.postgresql.org/) installed)	
 
 
